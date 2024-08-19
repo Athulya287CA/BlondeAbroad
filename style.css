@@ -1,0 +1,965 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+    
+}
+.cursive{
+    font-family: "Homemade Apple", cursive;
+    font-size: 40px;
+    color: #dbbba0;
+    text-align: center;
+    margin: 40px 0 15px;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 70px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 40px 0px;
+    font-weight: 50;
+    font-family: "Quicksand", sans-serif;
+    color:#a3a39a;
+
+}
+.nav-primary .container-fluid .col-1{
+    background-color: #f6f0e7;
+    
+}
+.nav-prim .col-1,.nav-prim .col-10{
+    background-color: #f6f0e7;
+    height:53px;
+}
+.navbar .bg-body-tertiary{
+    padding: 0;
+    margin:0;
+    border:0;
+    background-color: #f6f0e7;
+}
+.nav-primary{
+    border:none;
+  background-color: #f6f0e7;
+  padding:0 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-primary p a, .dropdown{
+
+        text-decoration: none;
+        color:#73736f;
+        padding: 10px 5px;
+        border: none;
+        padding-top: 20px;
+        align-items: center;
+}
+
+.nav-primary p a:hover{
+    color: #bcab95;
+    font-weight: 800;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-primary .dropdown{
+    margin:0;
+    padding-top: 0;
+}
+/* ........................logo........................ */
+.logo{
+    height:189px;
+    align-items: center;
+}
+.logo img{
+    height:80px
+}
+
+/* ..............................................nav-sticky...................................... */
+.sticky-bar{
+    position: sticky;
+    top:0;
+    z-index: 100;
+    
+}
+.sticky-bar .navbar #navbarNavDropdown{
+    background-color: #fff;
+    border: #fff;
+    padding: #fff;
+}
+.sticky-bar .navbar-nav{
+    background-color: #fff;
+    width:1000px;
+    justify-content: space-between;
+}
+.nav-item a{
+    color: #73736f;
+}
+.nav-item a:hover{
+    color:rgb(187, 164, 134);
+    font-weight: 700;
+}
+/* .............................mega-menu................................................................. */
+.container{
+    position:relative;
+}
+
+.megamenu{
+    position:absolute;
+    width:100%;
+    left: 0;
+
+    opacity: 0;
+    visibility: hidden;
+
+    height:300px;
+    background-color:#f1f1f1;
+    
+}
+.megamenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mega1{
+    justify-content: center;
+    align-items: center;
+}
+.mega1 img{
+    height:200px;
+    width:200px;
+}
+.mega1 p{
+    text-align: center;
+}
+
+#navbarNavDropdown ul li.nav-item.rest:hover .megamenu {
+    opacity: 1;
+    visibility: visible;
+}
+/* ..............................................................hero-section.................................... */
+.hero-section img{
+    width:100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    margin-bottom: -4px;
+    background-color: #f4eee9;
+}
+
+.featured{
+    position: relative;
+    width:100%;
+    top:940;
+    background-color: #f6f2ef;
+    margin-top: 0;
+    border: none;
+    padding-top: 40px;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    padding: 40px 0;;
+}
+
+
+.row.featured {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1020px; /* Set the width of the .row to 1020px */
+    margin: 0 auto; /* Center the .row within its parent container */
+    padding: 0; /* Remove padding if not needed */
+}
+
+.col {
+    width: 330px !important; /* Set the width of the .col divs to 330px */
+    height: 425px; /* Set the height of the .col divs to 480px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; /* Space between the columns */
+    border: 5px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 0 0 0 1px #f0ece9;
+    background: url(./images/featured-bg.jpg) no-repeat;
+    background-size: 320px 415px;
+    background-position: center; 
+}
+
+.col p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.col a {
+    text-decoration: none;
+    color: #baa892;
+    text-align: center;
+}
+
+.col img {
+    width: 280px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.col:hover {
+    border: 5px solid #e2cab7;
+}
+.divider{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.divider img{
+    width:99%;
+}
+/* about................................................................................ */
+.col-7{
+    background-color: #fde7d6;
+    width:640px;
+    height: 420px;
+    padding: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    
+}
+.col-7 .about-col{
+    margin: 0px 25px;
+}
+.col-7 .about-col .about-image-Autumn{
+    height:365px;
+    width:280px;
+}
+
+.col-7 .about-col .postcard-divider{
+    height:360px;
+    width:30px;
+}
+.col-7 .about-col .avion-stamp{
+    height:80px;
+    width:80px;
+    
+}
+.col-7 .about-col .stamp-Autumn{
+    height: 105.3px;
+    width:175px;
+     margin-left: 50px;
+}
+
+
+.about-col .stamp{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.about-col .about-content{
+    text-align: center;
+}
+.about-col .about-content button{
+    padding: 5px 30px;
+    text-align: center;
+    border: none;
+    background-color: #bda088;
+}
+.about-col .about-content button:hover{
+    color:#f0ece9
+}
+
+/* ............travel_for_freee ...................................... */
+
+.about .col-3{
+    background-color: #fef9f3;
+    height:440px;
+    width:360px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.about .col-3 img{
+    height:200px;
+    width:260px;
+    
+}
+.about .col-3 h5{
+    text-align: left;
+    margin-left: 0;
+
+}
+.about .col-3 .arr{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: left;
+    text-decoration:none;
+}
+.about .col-3 .arr:hover{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: left;
+    color: #707065;
+    
+}
+
+.about .col-3 p{
+    margin:0px 10px;
+
+}
+
+.about .col-3 .arr p,.about .col-3 .arr i{
+    color:#9e886b;
+    text-decoration: none;   
+}
+.about .col-3 .arr p,.about .col-3 .arr i:hover{
+    color:#e1b57ad8;
+    text-decoration: none;   
+}
+
+
+/* .............................bucket............................... */
+
+.bucket .col-6{
+    background: url(./images/watercolor-beige.png);
+}
+
+/* gallery................................................................. */
+
+.gallery-flex{
+    display: flex;
+    /* background-color: #bda088; */
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    height:550px;
+}
+.card-body{
+    width:420px;
+    height:550px;
+}
+.gallery-1{
+   
+    
+    position: relative;
+    width: 100%;
+    height: 550px; /* Set the height of the card body */
+    background: url('./images/gallery/a-girls-trip.jpg') no-repeat center center; /* Background image */
+    background-size: cover;
+}
+
+.gallery-2{
+    
+    position: relative;
+    width: 100%;
+    height: 550px; /* Set the height of the card body */
+    background: url('./images/gallery/african-safari.jpg') no-repeat center center; /* Background image */
+    background-size: cover;
+}
+
+.gallery-3{
+    position: relative;
+    width: 100%;
+    height: 550px; /* Set the height of the card body */
+    background: url('./images/gallery/Backpack-southeast.jpg') no-repeat center center; /* Background image */
+    background-size: cover;
+}
+
+.gallery-4{
+    
+    position: relative;
+    width: 100%;
+    height: 550px; /* Set the height of the card body */
+    background: url('./images/gallery/go-to-a-festival.jpg') no-repeat center center; /* Background image */
+    background-size: cover;
+}
+
+.gallery-5{
+    position: relative;
+    width: 100%;
+    height: 550px; /* Set the height of the card body */
+    background: url('/images/gallery/road-trip.jpg') no-repeat center center; /* Background image */
+    background-size: cover;
+   
+}
+
+.gallery-6{
+    position: relative;
+    width: 100%;
+    height: 550px; /* Set the height of the card body */
+    background: url('/images/gallery/solo-trip.jpg') no-repeat center center; /* Background image */
+    background-size: cover;
+}
+
+.gallery-7{
+    position: relative;
+    width: 100%;
+    height: 550px; /* Set the height of the card body */
+    background: url('/images/gallery/summer-in-europe.jpg') no-repeat center center; /* Background image */
+    background-size: cover;
+}
+
+.gallery-8{
+    position: relative;
+    width: 100%;
+    height: 550px; /* Set the height of the card body */
+    background: url('/images/gallery/trips-to-take-in-your-30s.jpg') no-repeat center center; /* Background image */
+    background-size: cover;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    position: absolute;
+    margin: 0%;
+    padding: 0px;
+    
+}
+
+.bucket .card-body .btn a{
+    text-transform: uppercase;
+}
+.bucket .btn{
+    margin-top: 450px;
+    background-color: #efe4d7;
+    color: #73736f;
+    border:none;
+    width:200px;
+}
+
+.bucket .btn:hover{
+    color: #676763;
+    background-color:#ded3c5 ;
+}
+
+/* .............explore .................. */
+.place-name ul{
+    border: 2px solid #d4c1aa;
+    
+}
+.place-name ul li:hover{
+    border: 2px solid #d4c1aa;
+    
+}
+.beige{
+    color: #ba9981;
+}
+.place-name{
+    position: relative;
+}
+.place-name img{
+    position: absolute;
+    margin-left: 100px;
+    width:300px;
+    top:510px;
+    z-index: 1;
+    
+}
+.place-name .current-destination{
+    position: absolute;
+    top:650px;
+    margin-left: 260px;
+    font-size: larger;
+}
+.place-name li{
+    text-transform: uppercase;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+
+.explore .formdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.explore .formdiv .destination select option{
+   
+    text-transform: uppercase;
+    padding: 40px 0px;
+    
+}
+.explore .formdiv .destination option:hover{
+   background-color: #e7ba96;
+}
+
+.destination select,.search-site input{
+    width:350px;
+    padding: 10px 20px;
+
+}
+
+.explore .map img{
+    width:120%;
+}
+.space-after-destination{
+    width:100%;
+    height:200px;
+}
+/* ............packing-guide............ */
+
+.guide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.guide-img {
+    height:600px;
+    width:500px;
+    
+}
+.guide-content{
+    height:550px;
+    width:500px;
+   
+}
+.guide-content h2{
+    font-size: 40px;
+}
+.guide-content span{
+    font-size: 60px;
+}
+.guide-content p{
+    text-align: center;
+}
+
+.centre-guide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.guide-content button{
+    padding: 10px 60px;
+    border: none;
+    color:#676763;
+    background-color: #d7c1af;
+}
+
+.guide-content button:hover{
+    
+    background-color: transparent;
+    border:1px solid #b9a08d;
+    color: #b9a08d;
+}
+
+.guide-content{
+    position: relative;
+    background-color: #f4f1ee;
+    padding: 30px 40px;
+}
+
+.guide-content-img img{
+    width:260px;
+    position: absolute;
+    top:5px;
+}
+/* ............................banner.................. */
+.space-after-destination1{
+    width:100%;
+    height:100px;
+}
+.banner img{
+    width:100%;
+
+}
+
+/* ........................blog resources............................................. */
+
+.blogger{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.tape img{
+    
+    
+    margin-left:300px;
+}
+.blog-content{
+    position: relative;
+}
+.blogger-resources-main1{
+    width:500px;
+    height:600px;
+    margin-left:130px;
+    position: absolute;
+    top:15px;
+    z-index: -1;
+}
+
+.blog-list{
+    width:300px;
+    height:280px;
+    background-color: #fff5e9;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 130px;
+    padding: 10px;
+}
+
+.blog-list p{
+    text-align: center;
+}
+.blog-list h5{
+    border-bottom: 1px solid #a3a39a;
+    text-align: end;
+}
+.blog-list h5:hover{
+    color: #ba9981;
+}
+
+/*.............blog-content2........................ */
+
+.blog-content2 .bg{
+    height:430px;
+    background-color: #ba9981;
+    margin-top: 30px;
+    margin-left: 300px;
+    width:350px;
+    z-index: -1;
+    
+}
+.blog-content2{
+    position: relative;
+}
+.blog-content2 .bg-img{
+    position:absolute;
+    margin-left: 330px;
+    top: 80px;
+}
+
+.blog-content2 .bg-img img{
+    position:absolute;
+    height:450px;
+    width:370px;
+}
+
+.blog-content2{
+    position: relative;
+}
+.blog-content2 .bg-stamp{
+    position: absolute;
+    top:0;
+    margin-left: 270px;
+}
+
+.blog-content2 .bg-stamp img{
+    width:120px;
+    height:120px;
+}
+
+/* .......................................................subscribe section.................................................................. */
+
+.space-after-destination2{
+    width:100%;
+    height:300px;
+    padding-bottom: 130px;
+}
+
+.subscribe-section{
+    height:600px;
+    display:flex;
+    background-color: #faf5ef;
+
+}
+
+.subscribe-form{
+    background-color: #faf5ef;
+    width:100%;
+    margin-top: 100px;
+    margin-left:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form h5, .subscribe-form button{
+    text-align: center;
+    line-height: 40px;
+}
+
+.subscribe-form input{
+    width:100%;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color: transparent;
+    border: none;
+    color: #707065;
+    border-bottom: 2px solid #8b8b85;
+}
+
+.subscribe-form::placeholder{
+    color: #000000;
+    opacity: 1;
+}
+
+.subscribe-form button{
+    margin-top: 20px;
+    padding: 0px 40px;
+    margin-left: 100px;
+    border: none;
+    background-color: #baa892;
+    color: #fef9f3;
+}
+.subscribe-form button:hover{
+    margin-top: 20px;
+    padding: 0px 40px;
+    margin-left: 100px;
+    border: 1px solid #baa892;
+    color: #baa892;
+    background-color: #fef9f3;
+}
+
+/* ,.................... */
+
+.subscribe-letter{
+    margin-left: 100px;
+    background-color: #fef9f3;
+    position: relative;
+}
+
+.subscribe-letter .subscribe-para{
+    position: absolute;
+    background-color: #e1cfc2;
+    height:355px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 70px 100px ;
+    padding-top: 110px;
+    border: 10px solid #eaeaea;
+}
+
+.subscribe-stamp{
+    margin-top: 50px;
+    width:220px;
+    height:116px;
+    z-index: 2;
+}
+.subscribe-stamp img{
+    width:220px;
+    height:116px;
+    
+}
+.polaroid-frame img{
+    
+    width:260px;
+    height:315px;
+    margin-left: 260px;
+    margin-top: 150px;
+}
+
+/* .............................................Instagram..................................... */
+.cursive1{
+    font-family: "Homemade Apple", cursive;
+    font-size: 40px;
+    color: #756d67;
+    text-align: center;
+    margin: 40px 0 15px;
+    font-weight: 100;
+    
+}
+.instagram{
+    position: relative;
+}
+.instagram h4{ 
+    font-size: 100px;
+    margin-left: 650px; 
+    position: absolute;
+    z-index: 1; 
+    bottom: 380px;
+    
+}
+
+.beigebg{
+    background-color: #e7ba96;
+    width:100%;
+    height:400px;
+    position: relative;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.insta-gallery{
+    position: absolute;
+    margin-top: 100px;
+    width:98%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.insta-col1{
+    height: 212.15px;
+    width:300px;
+    background-image: url(https://www.theblondeabroad.com/wp-content/uploads/sb-instagram-feed-images/448987852_1171285500685973_3823723532416586565_nlow.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    opacity: 1;
+   
+}
+
+.insta-col2{
+    height: 212.15px;
+    background-image: url("https://www.theblondeabroad.com/wp-content/uploads/sb-instagram-feed-images/454338012_1414898405869202_8398975856994550711_nlow.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    opacity: 0.85;
+}
+
+.insta-col3{
+    height: 212.15px;
+    background-image: url("https://www.theblondeabroad.com/wp-content/uploads/sb-instagram-feed-images/453644731_1134145727672592_4946911228618855322_nlow.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    opacity: 0.85;
+}
+.insta-col4{
+    height: 212.15px;
+    background-image: url("https://www.theblondeabroad.com/wp-content/uploads/sb-instagram-feed-images/452582600_18445370290008276_5997501024459925776_nlow.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    opacity: 0.85;
+}
+.insta-col5{
+    height: 212.15px;
+    background-image: url("https://www.theblondeabroad.com/wp-content/uploads/sb-instagram-feed-images/450809413_970423814768969_8609161780604380816_nlow.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    opacity: 0.85;
+}
+
+.beigebg .instahover{
+    transition: transform 0.3s ease;
+}
+
+.beigebg .instahover:hover{
+    transform: scale(1.1);
+}
+
+/* ..........................................footer  */
+
+
+.index{
+    margin-top: 100px;
+    color:#676763;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.index4 img{
+    width:246px;
+    height: 338px;
+}
+
+.index3 img{
+    width:207px;
+    height: 179px;
+}
+
+.index1 li ul li:hover{
+    color: #7d7671;
+   
+}
+.index1 li:hover{
+    color: #bda088;
+}
+
+.index2 p{
+    line-height: 30px;
+    font-weight: 500;
+
+}
+.index2 input{
+    line-height: 30px;
+    font-weight: 500;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid ;
+}
+
+.index2 button{
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: none;
+    border-right: 4px  inset #b1b1ae ;
+    border-bottom: 4px inset  #676763 ;
+    
+}
+.index2 button:hover{
+    border: none;
+    background-color: #ebdfd6;
+    border-left: 4px  inset #b1b1ae ;
+    border-top: 4px inset  #676763 ;
+    
+}
+/* ..............................................footer.................................. */
+
+.footer {
+    width:100%;
+    height:200px;
+    background: url(https://www.theblondeabroad.com/wp-content/themes/tba/images/Footer-bg.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+   
+   
+}
+
+.footer2 img{
+    width:50px;
+    height:61px;
+}
+.footer1{
+    margin-right: 400px;
+
+}
+.footer3{
+     margin-left: 400px;
+}
+.footer1 p, .footer3 i{
+    color:white;
+}
+.footer3 i{
+   padding: 0px 5px;
+}
